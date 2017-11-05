@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="htm.la team">
+		
+		<title>htm.la</title>
+	</head>
+	
+	<body>
+		<script>
+			const {0: n} = document.referrer.match("[0-9]+");
+			location.href = `https://hitomi.la/galleries/${n}.html`;
+		</script>
+	</body>
+</html>
